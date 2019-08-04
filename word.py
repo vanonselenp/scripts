@@ -6,7 +6,6 @@ if __name__ == '__main__':
     words_list = words.split('\n')
 
     search = sys.argv[1]
-    # looking_for = int(sys.argv[2])
 
     looking = []
 
