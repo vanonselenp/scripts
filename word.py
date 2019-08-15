@@ -13,7 +13,7 @@ if __name__ == '__main__':
         found = True
         lowered_word = word.lower()
         for c in lowered_word:
-            if c not in search or lowered_word.count(c) > 1:
+            if c not in search or lowered_word.count(c) > search.count(c):
                 found = False
 
         if found:
